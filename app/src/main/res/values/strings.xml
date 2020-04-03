@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Acses2</string>
+    <string-array name="Events">
+        <item>C Code War</item>
+        <item>JAVA Code War</item>
+    </string-array>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4894239463483601/7726869175</string>
+    <string name="view_ad_unit">ca-app-pub-4894239463483601/2842018742</string>
+    <string name="action_settings">Settings</string>
+    <string name="student_name">Student Name</string>
+</resources>

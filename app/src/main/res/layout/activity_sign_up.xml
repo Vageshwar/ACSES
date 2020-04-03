@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Enter Required Data Fields"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+    android:id="@+id/suemail"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_below="@+id/text"
+    android:background="@drawable/et_bg"
+    android:layout_marginTop="30dp"
+    android:layout_centerHorizontal="true"
+    android:hint="Email"
+    android:textColorHint="@color/white"
+    android:textAlignment="center" />
+
+    <EditText
+    android:id="@+id/supass"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:layout_below="@+id/suemail"
+    android:background="@drawable/et_bg"
+    android:layout_marginTop="30dp"
+    android:layout_centerHorizontal="true"
+    android:hint="Password"
+    android:textColorHint="@color/white"
+    android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/confirm"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/supass"
+        android:background="@drawable/et_bg"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Re-Enter Password"
+        android:textColorHint="@color/white"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_bg"
+        android:text="Sign UP"
+        android:textColor="@color/white" />
+</RelativeLayout>

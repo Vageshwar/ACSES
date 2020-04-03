@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/mainRl"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/serialNo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:layout_weight="40"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:layout_weight="30"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:layout_weight="30"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>
